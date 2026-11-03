@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prodotti categoria="abbigliamento"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="schema.xsd">
+    <prodotto>
+        <id>401</id>
+        <nome>Giacca Tecnica in Pelle Sport Racing</nome>
+        <descrizione>Giacca in pelle bovina con protezioni omologate livello 2 su spalle ed gomiti, inserti elasticizzati.</descrizione>
+        <prezzo>299.00</prezzo>
+        <marca>Dainese</marca>
+        <immagine>immagini/abbigliamento/giacca-pelle.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>402</id>
+        <nome>Guanti Estivi in Carbonio e Pelle</nome>
+        <descrizione>Guanti corti in pelle con nocche in fibra di carbonio e palmo rinforzato per massima sensibilità.</descrizione>
+        <prezzo>69.90</prezzo>
+        <marca>Alpinestars</marca>
+        <immagine>immagini/abbigliamento/guanti-carbonio.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>403</id>
+        <nome>Paraschiena Omologato Livello 2</nome>
+        <descrizione>Protezione dorsale ergonomica e ventilata con fascia lombare regolabile per il massimo comfort.</descrizione>
+        <prezzo>79.00</prezzo>
+        <marca>Zandona</marca>
+        <immagine>immagini/abbigliamento/paraschiena.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>404</id>
+        <nome>Stivali da Guida Sportiva Waterproof</nome>
+        <descrizione>Stivali touring in microfibra con membrana impermeabile e rinforzi su caviglia e cambio.</descrizione>
+        <prezzo>159.00</prezzo>
+        <marca>TCX</marca>
+        <immagine>immagini/abbigliamento/stivali-sport.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>405</id>
+        <nome>Tuta Antipioggia Alta Visibilità 2 Pezzi</nome>
+        <descrizione>Completo giacca e pantalone 100% impermeabile con inserti riflettenti per la guida notturna.</descrizione>
+        <prezzo>49.90</prezzo>
+        <marca>Rev'it</marca>
+        <immagine>immagini/abbigliamento/tuta-antipioggia.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+</prodotti>

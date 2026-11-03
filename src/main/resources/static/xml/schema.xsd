@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Tipo di dato per la categoria (Enum) -->
+    <xs:simpleType name="CategoriaType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="caschi"/>
+            <xs:enumeration value="gomme"/>
+            <xs:enumeration value="abbigliamento"/>
+            <xs:enumeration value="accessori"/>
+            <xs:enumeration value="manutenzione"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Tipo di dato per il prezzo (Valuta a due decimali) -->
+    <xs:simpleType name="PrezzoType">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0.00"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Tipo di dato per la disponibilita (Enum) -->
+    <xs:simpleType name="DisponibilitaType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Disponibile"/>
+            <xs:enumeration value="Esaurito"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Tipo di dato per il percorso dell'immagine locale -->
+    <xs:simpleType name="PercorsoImmagineType">
+        <xs:restriction base="xs:string">
+            <!-- Valida percorsi del tipo: immagini/.../foto.jpg, .png, .webp -->
+            <xs:pattern value="immagini/.*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Definizione dell'elemento singolo Prodotto -->
+    <xs:complexType name="ProdottoType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:positiveInteger"/>
+            <xs:element name="nome" type="xs:string"/>
+            <xs:element name="descrizione" type="xs:string"/>
+            <xs:element name="prezzo" type="PrezzoType"/>
+            <xs:element name="marca" type="xs:string"/>
+            <xs:element name="immagine" type="PercorsoImmagineType"/>
+            <xs:element name="disponibilita" type="DisponibilitaType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Definizione del Root Element (prodotti) -->
+    <xs:element name="prodotti">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="prodotto" type="ProdottoType" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="categoria" type="CategoriaType" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

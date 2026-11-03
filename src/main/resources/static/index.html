@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotorShop - Catalogo Prodotti</title>
+    <!-- Libreria jQuery per chiamate AJAX -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo"><a href="index.html">MotorShop</a></div>
+
+    <!-- Barra di ricerca -->
+    <form id="searchForm" class="search-form" onsubmit="return false;">
+        <label class="visually-hidden" for="searchInput">Cerca un prodotto</label>
+        <input type="text" id="searchInput" name="ricerca" placeholder="Cerca prodotto per nome, marca o descrizione...">
+    </form>
+
+    <nav class="menu">
+        <a href="carrello.html">Carrello (<span id="cartCount">0</span>)</a>
+    </nav>
+</header>
+
+<div class="page-layout">
+    <!-- Sidebar Categorie -->
+    <aside class="sidebar">
+        <h2>Categorie</h2>
+        <ul id="sidebarCategories">
+            <li><a href="#" data-xml="xml/caschi.xml">Caschi</a></li>
+            <li><a href="#" data-xml="xml/gomme.xml">Gomme</a></li>
+            <li><a href="#" data-xml="xml/abbigliamento.xml">Abbigliamento</a></li>
+            <li><a href="#" data-xml="xml/accessori.xml">Accessori</a></li>
+            <li><a href="#" data-xml="xml/manutenzione.xml">Manutenzione</a></li>
+        </ul>
+    </aside>
+
+    <main class="products-container">
+        <h1>Catalogo Prodotti</h1>
+
+        <!-- Barra Filtri Categoria e Ordinamento -->
+        <div class="filters-bar" style="margin-bottom: 20px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+            <div>
+                <label for="categoryFilter">Categoria:</label>
+                <select id="categoryFilter">
+                    <option value="xml/caschi.xml">Caschi</option>
+                    <option value="xml/gomme.xml">Gomme</option>
+                    <option value="xml/abbigliamento.xml">Abbigliamento</option>
+                    <option value="xml/accessori.xml">Accessori</option>
+                    <option value="xml/manutenzione.xml">Manutenzione</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="sortFilter">Ordina per:</label>
+                <select id="sortFilter">
+                    <option value="default">Predefinito</option>
+                    <option value="price-asc">Prezzo crescente</option>
+                    <option value="price-desc">Prezzo decrescente</option>
+                    <option value="name-asc">Nome (A - Z)</option>
+                    <option value="name-desc">Nome (Z - A)</option>
+                </select>
+            </div>
+
+            <button type="button" class="btn" id="btnReset">Azzera filtri</button>
+        </div>
+
+        <!-- Sezione prodotti popolata via AJAX jQuery -->
+        <section id="products" class="products-list"></section>
+
+        <!-- Messaggio in caso di nessun risultato trovato -->
+        <div id="noResults" style="display: none; padding: 20px; text-align: center; color: #163b65; font-size: 18px;">
+            Nessun prodotto corrisponde ai criteri di ricerca selezionati.
+        </div>
+    </main>
+</div>
+
+<!-- Finestra Modale per Dettagli Prodotto -->
+<div id="infoModal" class="modal">
+    <section class="modal-content">
+        <button type="button" class="close" id="btnCloseModal">&times;</button>
+        <img id="modalProductImage" src="" alt="Immagine prodotto">
+        <h2 id="modalProductName"></h2>
+        <p id="modalProductBrand" style="font-weight: bold; color: #d97706; margin: 5px 0;"></p>
+        <p id="modalProductDescription" style="line-height: 1.5; text-align: left; margin: 15px 0;"></p>
+        <p id="modalProductAvailability" style="font-size: 14px; margin-bottom: 10px;"></p>
+        <p id="modalProductPrice" class="price" style="font-size: 24px; color: #163b65;"></p>
+        <button type="button" class="btn modal-button" id="modalAddToCartBtn">Aggiungi al carrello</button>
+    </section>
+</div>
+
+<footer class="footer">
+    <p>© 2026 MotorShop - Ricambi, Accessori e Abbigliamento Moto.</p>
+    <p>I prezzi e le disponibilità dei prodotti sono puramente indicativi e utilizzati a scopo didattico.</p>
+</footer>
+
+<!-- Collegamento al file JavaScript -->
+<script src="js/prodotti.js"></script>
+</body>
+</html>

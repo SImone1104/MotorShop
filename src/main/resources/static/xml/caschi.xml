@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prodotti categoria="caschi"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="schema.xsd">
+    <prodotto>
+        <id>501</id>
+        <nome>Casco Integrale in Fibra di Carbonio</nome>
+        <descrizione>Casco ultra leggero con aerodinamica da pista, interni removibili, cinturino a doppia D e visiera Pinlock.</descrizione>
+        <prezzo>420.00</prezzo>
+        <marca>AGV</marca>
+        <immagine>immagini/caschi/casco-carbonio.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>502</id>
+        <nome>Casco Modulare Apribile Touring con Visierino Solare</nome>
+        <descrizione>Casco touring con mentoniera ribaltabile, omologazione P/J e visiera parasole integrata a scomparsa.</descrizione>
+        <prezzo>239.00</prezzo>
+        <marca>Nolan</marca>
+        <immagine>immagini/caschi/casco-modulare.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>503</id>
+        <nome>Casco Enduro</nome>
+        <descrizione>Casco compatto e leggero con presa d'aria.</descrizione>
+        <prezzo>95.00</prezzo>
+        <marca>Airoh</marca>
+        <immagine>immagini/caschi/casco-enduro.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>504</id>
+        <nome>Visiera Fumè Scuro Anti-Graffio e Anti-Appannamento</nome>
+        <descrizione>Visiera di ricambio omologata per uso diurno con predisposizione per lente Pinlock.</descrizione>
+        <prezzo>38.00</prezzo>
+        <marca>AGV</marca>
+        <immagine>immagini/caschi/visiera-fume.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>505</id>
+        <nome>Interfono Bluetooth Singolo per Casco</nome>
+        <descrizione>Dispositivo di comunicazione Bluetooth per chiamate, navigatore GPS e musica con cancellazione rumore.</descrizione>
+        <prezzo>89.90</prezzo>
+        <marca>Cardo</marca>
+        <immagine>immagini/caschi/interfono-bluetooth.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+</prodotti>

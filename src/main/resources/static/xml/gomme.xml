@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prodotti categoria="gomme"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="schema.xsd">
+    <prodotto>
+        <id>101</id>
+        <nome>Pneumatico Sportivo Hypersport 120/70 R17</nome>
+        <descrizione>Gomma anteriore ad alte prestazioni per guida sportiva e pista, aderenza eccellente su asciutto e bagnato.</descrizione>
+        <prezzo>129.90</prezzo>
+        <marca>Pirelli</marca>
+        <immagine>immagini/gomme/hypersport-120.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>102</id>
+        <nome>Pneumatico Touring LongLife 180/55 R17</nome>
+        <descrizione>Gomma posteriore a mescola bimescola per lunghi viaggi, elevato chilometraggio ed eccellente grip su bagnato.</descrizione>
+        <prezzo>165.00</prezzo>
+        <marca>Michelin</marca>
+        <immagine>immagini/gomme/touring-180.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>103</id>
+        <nome>Set Pneumatici Enduro Six Days Extreme</nome>
+        <descrizione>Coppia gomme ,stabilità ottimale su neve e ghiaccio.</descrizione>
+        <prezzo>210.00</prezzo>
+        <marca>Metzeler</marca>
+        <immagine>immagini/gomme/enduro-six-days.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>104</id>
+        <nome>Kit Riparazione Forature Tubeless con Bombolette CO2</nome>
+        <descrizione>Kit completo di strisce sigillanti, punteruolo, insertore e bombolette per la riparazione rapida su strada.</descrizione>
+        <prezzo>24.50</prezzo>
+        <marca>Slime</marca>
+        <immagine>immagini/gomme/kit-riparazione.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>105</id>
+        <nome>Manometro Digitale di Precisione per Pressione</nome>
+        <descrizione>Manometro tascabile ad alta precisione con display retroilluminato e valvola di sgonfiaggio rapida.</descrizione>
+        <prezzo>19.90</prezzo>
+        <marca>MotionPro</marca>
+        <immagine>immagini/gomme/manometro.jpg</immagine>
+        <disponibilita>Esaurito</disponibilita>
+    </prodotto>
+</prodotti>

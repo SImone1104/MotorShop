@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prodotti categoria="accessori"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="schema.xsd">
+    <prodotto>
+        <id>301</id>
+        <nome>Supporto Smartphone Antivibrazione per Manubrio</nome>
+        <descrizione>Supporto in alluminio universale con modulo smorzatore di vibrazioni per proteggere la fotocamera dello smartphone.</descrizione>
+        <prezzo>49.90</prezzo>
+        <marca>Quad Lock</marca>
+        <immagine>immagini/accessori/supporto-telefono.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>302</id>
+        <nome>Telo Coprimoto Waterproof con Occhielli Antifurto</nome>
+        <descrizione>Copertura impermeabile e termoresistente per proteggere il veicolo da pioggia, polvere e raggi UV.</descrizione>
+        <prezzo>35.00</prezzo>
+        <marca>Oxford</marca>
+        <immagine>immagini/accessori/telo-coprimoto.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>303</id>
+        <nome>Lucchetto Bloccadisco con Allarme Sonoro 110dB</nome>
+        <descrizione>Antifurto in acciaio cementato impermeabile con sensore di movimento e sirena di allarme ad alta intensità.</descrizione>
+        <prezzo>39.90</prezzo>
+        <marca>Kryptonite</marca>
+        <immagine>immagini/accessori/bloccadisco-allarme.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>304</id>
+        <nome>Mantenitore e Caricabatterie Intelligente 12V</nome>
+        <descrizione>Caricabatterie automatico per batterie al piombo, AGM e litio, ideale per il ricovero invernale.</descrizione>
+        <prezzo>58.00</prezzo>
+        <marca>Noco Genius</marca>
+        <immagine>immagini/accessori/mantenitore-batteria.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>305</id>
+        <nome>Borsa da Serbatoio Magnetica Extensibile 15L</nome>
+        <descrizione>Borsa universale con tasca superiore trasparente per mappa/smartphone e copertina antipioggia inclusa.</descrizione>
+        <prezzo>62.50</prezzo>
+        <marca>Givi</marca>
+        <immagine>immagini/accessori/borsa-serbatoio.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+</prodotti>

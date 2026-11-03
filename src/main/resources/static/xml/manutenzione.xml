@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prodotti categoria="manutenzione"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="schema.xsd">
+    <prodotto>
+        <id>201</id>
+        <nome>Olio Motore Sintetico 10W-40 4L</nome>
+        <descrizione>Olio lubrificante 100% sintetico per motori 4 tempi ad alte prestazioni, protezione antiusura avanzata.</descrizione>
+        <prezzo>45.00</prezzo>
+        <marca>Motul</marca>
+        <immagine>immagini/manutenzione/olio-10w40.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>202</id>
+        <nome>Grasso Catena Spray Off-Road &amp; Road 400ml</nome>
+        <descrizione>Lubrificante ad alta aderenza con formula antigoccia per catene O-Ring, X-Ring e Z-Ring.</descrizione>
+        <prezzo>12.90</prezzo>
+        <marca>Motul</marca>
+        <immagine>immagini/manutenzione/grasso-catena.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>203</id>
+        <nome>Scanner Diagnostica OBD2 Bluetooth Auto e Moto</nome>
+        <descrizione>Lettore di codici errore centralina via Bluetooth compatibile con iOS e Android per diagnosi istantanea.</descrizione>
+        <prezzo>34.99</prezzo>
+        <marca>Ancel</marca>
+        <immagine>immagini/manutenzione/obd2-scanner.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>204</id>
+        <nome>Liquido Freni Super DOT 4 High Performance 500ml</nome>
+        <descrizione>Fluido freni con elevato punto di ebollizione per impianti frenanti idraulici e frizioni.</descrizione>
+        <prezzo>9.50</prezzo>
+        <marca>Brembo</marca>
+        <immagine>immagini/manutenzione/liquido-freni.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+    <prodotto>
+        <id>205</id>
+        <nome>Kit Detergente e Spazzola Pulizia Catena</nome>
+        <descrizione>Sgrassatore concentrato e spazzola a tre teste per una pulizia profonda della trasmissione.</descrizione>
+        <prezzo>18.00</prezzo>
+        <marca>Muc-Off</marca>
+        <immagine>immagini/manutenzione/kit-pulizia-catena.jpg</immagine>
+        <disponibilita>Disponibile</disponibilita>
+    </prodotto>
+</prodotti>
