@@ -1,10 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotorShop - Il tuo Carrello</title>
+    <!-- Libreria jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
+<header class="navbar">
+    <div class="logo-container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="immagini/logo.jpg" alt="MotorShop Logo" class="logo-img">
+            </a>
+        </div>
+        <p class="header-subtitle">Ricambi, Accessori e Abbigliamento Moto</p>
+    </div>
+
+    <nav class="menu">
+        <a href="index.html">← Torna al Catalogo</a>
+    </nav>
+</header>
+
+<main class="cart-page">
+    <h1>Il tuo Carrello</h1>
+
+    <div class="cart-layout">
+        <!-- Area Prodotti popolata via AJAX -->
+        <section class="cart-products" id="cartContainer">
+            <!-- Le righe del carrello verranno inserite dinamicamente da carrello.js -->
+        </section>
+
+        <!-- Riepilogo Totali -->
+        <aside class="cart-summary">
+            <h2>Riepilogo Ordine</h2>
+            <div class="summary-row">
+                <span>Articoli totali:</span>
+                <span id="summaryTotalCount">0</span>
+            </div>
+            <div class="summary-row">
+                <span>Totale Complessivo:</span>
+                <span id="summaryGrandTotal">€0.00</span>
+            </div>
+            <button type="button" class="btn" style="width: 100%; margin-top: 15px;" id="btnCheckout">Procedi all'ordine</button>
+        </aside>
+    </div>
+
+    <!-- Messaggio carrello vuoto -->
+    <div id="emptyCart" style="display: none; text-align: center; padding: 40px;">
+        <p style="font-size: 20px; color: #a1a1aa;">Il tuo carrello è attualmente vuoto.</p>
+        <a href="index.html" class="btn">Torna allo shopping</a>
+    </div>
+</main>
+
+<footer class="footer">
+    <p>© 2026 MotorShop - Ricambi, Accessori e Abbigliamento Moto.</p>
+    <p>I prezzi e le disponibilità dei prodotti sono puramente indicativi e utilizzati a scopo didattico.</p>
+</footer>
+
+<script src="js/carrello.js"></script>
 </body>
 </html>

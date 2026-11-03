@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="carrello">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="elemento" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="idProdotto" type="xs:string"/>
+                            <xs:element name="nome" type="xs:string"/>
+                            <xs:element name="prezzoUnitario" type="xs:decimal"/>
+                            <xs:element name="quantita" type="xs:positiveInteger"/>
+                            <xs:element name="immagine" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

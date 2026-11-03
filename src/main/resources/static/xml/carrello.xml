@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrello xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="carrello.xsd">
+    <elemento>
+        <idProdotto>1</idProdotto>
+        <nome>Casco Integrale in Fibra di Carbonio</nome>
+        <prezzoUnitario>420.00</prezzoUnitario>
+        <quantita>1</quantita>
+        <immagine>immagini/caschi/casco-carbonio.jpg</immagine>
+    </elemento>
+    <elemento>
+        <idProdotto>2</idProdotto>
+        <nome>Pneumatico Touring LongLife 180/55 R17</nome>
+        <prezzoUnitario>165.00</prezzoUnitario>
+        <quantita>2</quantita>
+        <immagine>immagini/gomme/touring-180.jpg</immagine>
+    </elemento>
+</carrello>
