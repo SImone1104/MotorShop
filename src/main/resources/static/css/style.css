@@ -101,6 +101,27 @@ select:focus {
     letter-spacing: 0.5px;
 }
 
+/* Gestione Dimensioni Logo e Header */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-img {
+    height: 45px;          /* Altezza ottimale per la navbar */
+    width: auto;           /* Mantiene le proporzioni corrette */
+    display: block;
+    object-fit: contain;
+}
+
+.header-subtitle {
+    font-size: 0.8rem;
+    color: #9ca3af;         /* Grigio chiaro/medio */
+    margin: 3px 0 0 0;
+    font-style: italic;
+}
+
 .customer-name {
     margin: 0;
     color: #e2e8f0;
